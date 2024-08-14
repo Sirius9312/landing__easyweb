@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <title>EasyWeb Authorization</title>
+</head>
+<body class="page__body">
+  <div class="reg-auth-container">
+    <div class="container">
+      <div class="reg-auth-container__content">
+        <div class="top reg-auth-container__top">
+          <div class="top__left-container">
+            <div class="top__logo-betasign-container">
+              <a href='#' class="logo">
+                <img
+                  class="logo__image"
+                  src="../images/headerLogo.svg"
+                  alt="Header Logo"
+                >
+              </a>
+  
+              <div class="top__beta-sign">
+                Beta
+              </div>
+            </div>
+
+            <ul class="top__desktop-list">
+              <li class="top__desktop-item">
+                <a href="../index.html#advantages" class="top__desktop-link">
+                  Преимущества
+                </a>
+              </li>
+    
+              <li class="top__desktop-item">
+                <a href="../index.html#rates" class="top__desktop-link">
+                  Тарифы
+                </a>
+              </li>
+    
+              <li class="top__desktop-item">
+                <a href="../index.html#faq" class="top__desktop-link">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="top__select-language-button">
+            <span class="top__text-lang">Ua</span>
+
+            <div class="icon icon--language-arrow"></div>
+          </button>
+
+          <a href="#menu" class="icon icon--menu"></a>
+
+          <div class="top__enter-registration-buttons-container">
+            <a href="authorization.html" class="button button--white">
+              Вход
+            </a>
+  
+            <a href="registration.html" class="button button--blue">
+              Регистрация
+            </a>
+          </div>
+        </div>
+
+        <div class="grid-cover">
+          <div class="reg-auth-container__image-form-container">
+            <div class="reg-auth-container__form-container">
+              <h1 class="reg-auth-container__form-title">
+                Вход
+              </h1>
+
+              <form
+                class="reg-auth-container__form"
+                action="/"
+                method="post"
+              >
+                <label
+                  class="reg-auth-container__label"
+                >
+                  Email
+                  <input
+                    type="email"
+                    class="reg-auth-container__field form-field"
+                    placeholder="Введите email"
+                    name="email"
+                    autocomplete="off"
+                    required
+                  >
+                </label>
+
+                <label
+                  class="reg-auth-container__label"
+                >
+                  Пароль
+
+                  <div class="reg-auth-container__password-filed-container">
+                    <div class="reg-auth-container__password-eye icon icon--form-password-eye"></div>
+
+                    <input
+                      type="password"
+                      class="reg-auth-container__field form-field"
+                      placeholder="Введите пароль"
+                      name="password"
+                      autocomplete="off"
+                      pattern="[а-яА-Яa-zA-Z]{4,100}"
+                      required
+                    >
+                  </div>
+                </label>
+
+                <label
+                  class="reg-auth-container__label"
+                >
+                  <a
+                    class="reg-auth-container__enter-reg-link reg-auth-container__enter-reg-link--forgot-password"
+                    href="#"
+                  >
+                    Забыли пароль?
+                  </a>
+                </label>
+
+                <button class="button button--reg-button">
+                  Войти
+                </button>
+              </form>
+
+              <button class="button button--enter-telegram">
+                <span class="reg-auth-container__telegram-button-content">Войти через Telegram</span>
+
+                <div class="icon icon--telegram">
+              </button>
+
+              <p class="reg-auth-container__have-account">
+                Еще нет аккаунта?
+              </p>
+
+              <a class="reg-auth-container__enter-reg-link" href="registration.html">
+                Зарегистрироваться
+              </a>
+            </div>
+
+            <div class="reg-auth-container__image-container reg-auth-container__image-container--desktop">
+              <img
+                src="../images/header-desktop-mackbook.jpg"
+                alt="Mobile Mackbook"
+                class="reg-auth-container__image"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav id="menu" class="menu page__menu">
+    <div class="container">
+      <div class="menu__content">
+        <div class="top menu__top">
+          <div class="top__left-container">
+            <div class="top__logo-betasign-container">
+              <a href='#' class="logo">
+                <img
+                  class="logo__image"
+                  src="../images/headerLogo.svg"
+                  alt="Header Logo"
+                >
+              </a>
+  
+              <div class="top__beta-sign">
+                Beta
+              </div>
+            </div>
+          </div>
+
+          <button class="top__select-language-button">
+            <span class="top__text-lang">Ua</span>
+
+            <div class="icon icon--language-arrow"></div>
+          </button>
+
+          <a href="#" class="icon icon--cross"></a>
+        </div>
+
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="../index.html#advantages" class="menu__link">
+              Преимущества
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="../index.html#rates" class="menu__link">
+              Тарифы
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="../index.html#faq" class="menu__link">
+              FAQ
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="../index.html#contacts" class="menu__link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+
+        <div class="menu__enter-registration-buttons-container">
+          <a href="authorization.html" class="button button--white">
+            Вход
+          </a>
+
+          <a href="registration.html" class="button button--blue">
+            Регистрация
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo-contacts-container">
+          <div class="footer__logo-container">
+            <a href='#' class="logo">
+              <img
+                class="logo__image"
+                src="../images/footerLogo.svg"
+                alt="Header Logo"
+              >
+            </a>
+
+            <div class="footer__beta-sign">
+              Beta
+            </div>
+          </div>
+
+          <div id="contacts" class="footer__contacts-container">
+            <div class="footer__contact-container">
+              <div class="footer__contact">
+                <div class="footer__left-part">
+                  <div class="icon icon--telegram"></div>
+
+                  <div class="footer__contact-title">
+                    Чат
+                  </div>
+                </div>
+  
+                <div class="footer__right-part">
+                  <a href="#" class="footer__contact-link">
+                    @lsapp
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="footer__contact-container">
+              <div class="footer__contact">
+                <div class="footer__left-part">
+                  <div class="icon icon--telegram"></div>
+
+                  <div class="footer__contact-title">
+                    Канал
+                  </div>
+                </div>
+  
+                <div class="footer__right-part">
+                  <a href="#" class="footer__contact-link">
+                    @lscreew
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__contact-container">
+              <div class="footer__contact">
+                <div class="footer__left-part">
+                  <div class="icon icon--mail"></div>
+
+                  <div class="footer__contact-title">
+                    Почта
+                  </div>
+                </div>
+  
+                <div class="footer__right-part">
+                  <a href="mailto: www.support@ls.app" class="footer__contact-link">
+                    support@ls.app
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright-moreinfo-container">
+          <div class="footer__moreinfo-container footer__moreinfo-container--mobile">
+            <ul class="footer__moreinfo-list">
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Реферальная програма
+                </a>
+              </li>
+  
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Политика конфиденциальности
+                </a>
+              </li>
+
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Лицензионное соглашение
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__copyright-container footer__copyright-container--mobile">
+            &copy; EasyWeb 2024
+          </div>
+
+          <div class="footer__copyright-container footer__copyright-container--desktop">
+            &copy; EasyWeb 2024
+          </div>
+
+          <div class="footer__moreinfo-container footer__moreinfo-container--desktop">
+            <ul class="footer__moreinfo-list">
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Реферальная програма
+                </a>
+              </li>
+  
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Политика конфиденциальности
+                </a>
+              </li>
+
+              <li class="footer__moreinfo-item">
+                <a href="#" class="footer__moreinfo-link">
+                  Лицензионное соглашение
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
